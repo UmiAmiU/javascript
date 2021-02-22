@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epam home task</title>
+</head>
+<body>
+    <script>
+        let first = true;
+        let second = false;
+        let result;
+        console.log(typeof first, typeof second, typeof result);
+        result = first + second;
+        console.log(result, typeof result);
+        first = 12;
+        second = "6";
+        console.log(typeof first, typeof second, typeof result);
+        result = first / second;
+        console.log(result, typeof result);
+        first = "number"
+        second = 15;
+        console.log(typeof first, typeof second, typeof result);
+        result = first + second + 3;
+        console.log(result, typeof result);
+        result = 3 + second + first;
+        console.log(result, typeof result);
+        first = []
+        second = null;
+        console.log(typeof first, typeof second, typeof result);
+        result = first + second;
+        console.log(result, typeof result);
+        result = first + +second;
+        console.log(result, typeof result);
+        first = null;
+        second = undefined;
+        console.log(typeof first, typeof second, typeof result);
+        result = first * second;
+        console.log(result, typeof result);
+        result = first + second;
+        console.log(result, typeof result);
+        first = [1];
+        second = {};
+        console.log(typeof first, typeof second, typeof result);
+        result = first + second;
+        console.log(result, typeof result);
+        first = 1;
+        second = -0;
+        console.log(typeof first, typeof second, typeof result);
+        result = first / second;
+        console.log(result, typeof result);
+    </script>
+</body>
+</html>
